@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { EasyHousingComponent } from './easy-housing/easy-housing.component';
 import { BuyerComponent } from './buyer/buyer.component';
 import { SellerComponent } from './seller/seller.component';
+import { HttpClientModule } from "@angular/common/http";
 
 
 
@@ -21,7 +22,8 @@ import { SellerComponent } from './seller/seller.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
